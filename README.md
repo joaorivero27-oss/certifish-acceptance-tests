@@ -55,6 +55,20 @@ features/
 | NF01_registro_sin_conexion.feature | NF01 | EP01 | 5 | Lionel Fiestas |
 | NF04_acceso_por_rol_y_cooperativa.feature | NF04 | EP06 | 5 | Lionel Fiestas |
 
+**Total:** 11 archivos y 49 escenarios.
+
+## Relación con el Impact Map
+
+Cada prueba verifica una historia que contribuye a un Business Goal del Impact Map (sección 3.8 del informe):
+
+| Business Goal | Meta | Historias con prueba |
+|---|---|---|
+| BG1 (BO1) | Reducir en 40 % los lotes observados o rechazados en aduana | NF01, HU-09, HU-10, HU-11 |
+| BG2 (BO3) | Reducir en 50 % el tiempo para conformar un lote | HU-08 |
+| BG4 (BO4) | Mantener por debajo del 5 % los certificados con observaciones | HU-02, NF02, HU-03, HU-12, NF03, NF04 |
+
+BG3 (BO6, respuesta ante cierres de PRODUCE) no tiene pruebas en este repositorio, porque sus historias (HU-05, HU-06 y HU-07) pertenecen a EP03, que no es una de las épicas elegidas.
+
 ## Convenciones
 
 - **Idioma.** Gherkin en español. La primera línea de cada archivo es `# language: es`, así que las palabras clave son `Característica`, `Antecedentes`, `Escenario`, `Esquema del escenario`, `Ejemplos`, `Dado`, `Cuando`, `Entonces` e `Y`. No se mezclan palabras clave en inglés.

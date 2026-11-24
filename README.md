@@ -69,6 +69,19 @@ Cada prueba verifica una historia que contribuye a un Business Goal del Impact M
 
 BG3 (BO6, respuesta ante cierres de PRODUCE) no tiene pruebas en este repositorio, porque sus historias (HU-05, HU-06 y HU-07) pertenecen a EP03, que no es una de las épicas elegidas.
 
+## Relación con el Roadmap
+
+Las pruebas siguen la asignación de historias a sprints del Agile Product Roadmap (sección 3.7 del informe):
+
+| Sprint | Historias con prueba en este repositorio |
+|---|---|
+| Sprint 1 (semanas 1 y 2) | HU-02, NF01, NF02, HU-03 |
+| Sprint 2 (semanas 3 y 4) | HU-08, HU-09, NF03, HU-11 |
+| Sprint 3 (semanas 5 y 6) | HU-10 |
+| Sprint 4 (semanas 7 y 8) | HU-12, NF04 |
+
+HU-02 deriva a HU-12 (Sprint 4) en su escenario 8; esa alerta se verifica al terminar HU-12.
+
 ## Convenciones
 
 - **Idioma.** Gherkin en español. La primera línea de cada archivo es `# language: es`, así que las palabras clave son `Característica`, `Antecedentes`, `Escenario`, `Esquema del escenario`, `Ejemplos`, `Dado`, `Cuando`, `Entonces` e `Y`. No se mezclan palabras clave en inglés.

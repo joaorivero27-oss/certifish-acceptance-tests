@@ -3,7 +3,7 @@
 # Épica: EP01 · Sprint 1 · 2 SP
 # Tareas: T04 (Implementar el registro sin conexión) y T05 (Sincronizar sin duplicados los envíos interrumpidos)
 # Responsable: Lionel Fiestas
-**
+
 @EP01 @NF01
 Característica: NF01 Registrar capturas sin conexión (Fiabilidad)
   Como Patrón de embarcación

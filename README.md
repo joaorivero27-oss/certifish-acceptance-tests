@@ -82,6 +82,26 @@ Las pruebas siguen la asignación de historias a sprints del Agile Product Roadm
 
 HU-02 deriva a HU-12 (Sprint 4) en su escenario 8; esa alerta se verifica al terminar HU-12.
 
+## Relación con los wireframes
+
+Las historias con prueba tienen sus pantallas en los wireframes de Figma (sección 4.2 del informe):
+
+| Historia | Wireframe |
+|---|---|
+| HU-02 | Figura 23 |
+| HU-03 | Figuras 22 y 29 |
+| HU-08 | Figura 32 |
+| HU-09 | Figura 33 |
+| HU-10 | Figura 33 |
+| HU-11 | Figuras 35 y 36 |
+| NF01 | Figura 21 |
+| NF03 | Figuras 35 y 36 |
+| NF04 | Figuras 26 y 34 |
+
+HU-12 y NF02 no tienen una pantalla propia en los wireframes.
+
+Diseño completo en Figma:  https://www.figma.com/design/x9iu4gKfNVcl8PXtBX4ZWF 
+
 ## Convenciones
 
 - **Idioma.** Gherkin en español. La primera línea de cada archivo es `# language: es`, así que las palabras clave son `Característica`, `Antecedentes`, `Escenario`, `Esquema del escenario`, `Ejemplos`, `Dado`, `Cuando`, `Entonces` e `Y`. No se mezclan palabras clave en inglés.

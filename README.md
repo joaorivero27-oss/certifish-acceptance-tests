@@ -3,7 +3,7 @@
 Pruebas de aceptación de **CertiFish**, la plataforma de trazabilidad pesquera artesanal de **Deep Blue Solutions**.
 Curso Ingeniería de Requisitos (1ASI0786), UPC, ciclo 2026-20.
 
-Los archivos `.feature` traducen a Gherkin, en español, los criterios de aceptación de las historias de usuario de la sección 3.4 del informe. Cada escenario es un ejemplo concreto y verificable de un criterio, con datos de prueba en *data tables* y en tablas `Examples`.
+Los archivos `.feature` traducen a Gherkin, en español, los criterios de aceptación de las historias de usuario de la sección 3.4 del informe. Cada escenario es un ejemplo concreto y verificable de un criterio, con datos de prueba en *data tables* y en tablas `Examplos`.
 
 ## Alcance
 
